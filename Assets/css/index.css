@@ -1,0 +1,77 @@
+*{
+    font-style: normal;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: orange;
+}
+header img{
+    height: 40px;
+          }
+header h1{
+    color: green;
+    font-weight: 100;
+    
+         }
+header ul{
+           display: inline-block;
+           padding: 5px;
+           margin-left: auto;
+         
+          }
+header ul a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid purple;
+   
+            }
+ul  a:hover{
+             background-color: blueviolet;
+             }
+.title{
+    text-align: center;
+    height: 250px;
+    background-color: green;
+}            
+
+.title h2{
+    font-weight: 400;
+    font-style: normal;
+    font-family: no;
+    color: #10c1af;
+}
+.title p{
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+    font-style: normal;
+}
+.bible{
+    color: white;
+    font-family: sans-serif;
+    height: 250px;
+    background-color: purple;   
+}
+.bible h3{
+    font-size: 16px;
+}
+.bible p{
+    font-size: 14px;
+}
+.welcome{
+    padding: 0px;
+
+}
+.welcome h4{
+    color: #10c1af;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.welcome h3{
+    font-weight: 700;
+    font-size: 28px;
+}
