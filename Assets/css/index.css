@@ -1,66 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;600&display=swap');
-</style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Work+Sans:wght@100;600&display=swap');
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kaushan+Script&family=Playfair+Display&family=Work+Sans:wght@100;600&display=swap" rel="stylesheet">
 
 *{
-    font-style: normal;
-    box-sizing: border-box;
-    padding: 5px;
+    font-style:normal;
+    box-sizing:border-box;
 }
+
 header{
-    display: flex;
-    background-color: yellow;
-    
+    display: flex; 
 }
 header img{
     height: 40px;
           }
 header h1{
-    color: green;
+    color:green;
     font-size: medium;
     font-weight: 100;
       }
 header ul{
-        padding: 10px;
-        
+    padding: 10px;
+    margin-left: 60%;
         }
 header ul li{
     display: inline-block;
+   font-family: 'Roboto Slab',sans-serif;
 }
 header ul li a{
     text-decoration: none;
     color: black;
-    padding: 5px 20px;
-    border: 1px solid purple;
-    float: right;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: 1px solid black;
             }
 ul li a:hover{
              background-color: blueviolet;
              }
 .title{
     text-align: center;
-    height: 200px;
-    background-color: green;
+    height: 500px;
+    background-image: url('../images/church_n.jpg');
+    background-size: cover;
 }            
 .title h2{
    font-size: 60px;
     color: #10c1af;
+    font-family: 'Zen Loop',sans-serif;
 }
 .title p{
     font-size: 30px;
     font-family: sans-serif;
     font-style: normal;
 }
+
 .bible{
     color: white;
     font-family: sans-serif;
     height: 200px; 
-    background-color: yellow;
+    background-color:rgb(60, 60, 80)
 }
 .bible h3{
     font-size: 16px;
 }
 .bible p{
     font-size: 14px;
+}
+.bible button{
+    color: white;
+    background-color: rgb(110, 226, 110);
+    padding: 10px 20px;
+    display: flex;
+    float: right;
+    margin: 0% 5%;
 }
 .welcome{
     padding: 0px;
