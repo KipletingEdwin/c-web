@@ -1,0 +1,25 @@
+*{
+    padding: 10px;
+}
+.welcome{
+    display: flex;
+    background-color: orange;
+    width: 100%;
+}
+.about{
+width: 50%;
+}
+.about h4{
+    font-family: 'Pacifico', sans-serif;
+}
+.about h2{
+    font-weight: 600;
+}
+.about p{
+    font-weight: 400;
+}
+.video{
+    float: right;
+    width: 50%;
+    background-color: red;
+}
