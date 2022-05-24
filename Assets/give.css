@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h2,p,h3,h4{
+    text-align: center;
+    padding: 5px;
+}
+.bic{
+    width: 100%;
+    display: flex;
+    background-color: orangered;
+}
+.mpesa{
+    width: 50%;
+    display: flex;
+    background-color: yellow;
+}
+.mpesa img{
+    width: 50%;
+    height: auto;
+}

@@ -3,7 +3,6 @@
 }
 .welcome{
     display: flex;
-    background-color: orange;
     width: 100%;
 }
 .about{
@@ -22,4 +21,7 @@ width: 50%;
     float: right;
     width: 50%;
     background-color: red;
+}
+.about a{
+    color: rgb(87, 87, 172);
 }
